@@ -3,12 +3,24 @@ body {
 }
 
 /* header related styles */
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 12px 36px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
 
 /* nav related styles */
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-around;
 }
+
 .nav-head {
     display: flex;
 }
@@ -36,9 +48,16 @@ body {
     line-height: normal;
 }
 
-.nav-about{
+.nav-about {
     display: flex;
     margin-top: 25px;
+}
+
+.nav-about li {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 44px;
+
 }
 
 .nav-about a {
@@ -61,8 +80,65 @@ body {
     line-height: normal;
 }
 
+/* header banner related styles */
+.banner-container{
+    border: 2px solid white;
+    height: auto;
+    width: auto;
+    padding: 64px;
+      background-size: 100% 100%;
+     display: grid;
+     justify-content: center;
+     align-items: center;
+}
+
+
+.banner-heading {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal
+}
+
+.banner-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-primary img {
+    height: 22px;
+    width: 24px;
+    margin-right: 8px;
+    padding-top: 5px;
+
+}
+
+.banner-box {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border: 0px solid white;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.banner-select {
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    border-radius: 8px;
+    background: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 /* responsive the website for mobile */
-@media screen and (max-width:600px) {
-    
-}
